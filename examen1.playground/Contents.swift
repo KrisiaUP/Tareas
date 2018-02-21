@@ -1,4 +1,4 @@
-//  1. en la modernidad: es codigo abierto, 
+//  1. en la modernidad: es codigo abierto
 //  2. Xcode, tiene la ventana principal que no se puede esconder que es donde visualizamos los archivos, del lado izquierdo esta el navegador, que es donde podemos ver el arbol de archivos de nuestro proyecto y se puede esconder por si necesitamos mas espacio. Del lado derecho tenemos las utilidades que es donde podemos ver las propiedades de los componentes, tambien se puede esconder. En la parte de abajo tenemos el debugger, ahi podemos encontrar la consola donde nos muestra los errores y resultados, igualmente se puede esconder.
 //  3. gracias a la compatibilidad de swift con objective C podria usar la libreria sin problemas.
 
