@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06CF0D02033D37E00D4CD47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CF0CF2033D37E00D4CD47 /* AppDelegate.swift */; };
+		D06CF0D22033D37E00D4CD47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CF0D12033D37E00D4CD47 /* ViewController.swift */; };
+		D06CF0D52033D37E00D4CD47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06CF0D32033D37E00D4CD47 /* Main.storyboard */; };
+		D06CF0D72033D37E00D4CD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06CF0D62033D37E00D4CD47 /* Assets.xcassets */; };
+		D06CF0DA2033D37E00D4CD47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06CF0D82033D37E00D4CD47 /* LaunchScreen.storyboard */; };
+		D06CF0E52033D37E00D4CD47 /* jueguitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CF0E42033D37E00D4CD47 /* jueguitoTests.swift */; };
+		D06CF0F02033D37E00D4CD47 /* jueguitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CF0EF2033D37E00D4CD47 /* jueguitoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06CF0E12033D37E00D4CD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06CF0C42033D37E00D4CD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06CF0CB2033D37E00D4CD47;
+			remoteInfo = jueguito;
+		};
+		D06CF0EC2033D37E00D4CD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06CF0C42033D37E00D4CD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06CF0CB2033D37E00D4CD47;
+			remoteInfo = jueguito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D06CF0CC2033D37E00D4CD47 /* jueguito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jueguito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06CF0CF2033D37E00D4CD47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06CF0D12033D37E00D4CD47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D06CF0D42033D37E00D4CD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06CF0D62033D37E00D4CD47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06CF0D92033D37E00D4CD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D06CF0DB2033D37E00D4CD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06CF0E02033D37E00D4CD47 /* jueguitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jueguitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06CF0E42033D37E00D4CD47 /* jueguitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jueguitoTests.swift; sourceTree = "<group>"; };
+		D06CF0E62033D37E00D4CD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06CF0EB2033D37E00D4CD47 /* jueguitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jueguitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06CF0EF2033D37E00D4CD47 /* jueguitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jueguitoUITests.swift; sourceTree = "<group>"; };
+		D06CF0F12033D37E00D4CD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06CF0C92033D37E00D4CD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06CF0DD2033D37E00D4CD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06CF0E82033D37E00D4CD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06CF0C32033D37E00D4CD47 = {
+			isa = PBXGroup;
+			children = (
+				D06CF0CE2033D37E00D4CD47 /* jueguito */,
+				D06CF0E32033D37E00D4CD47 /* jueguitoTests */,
+				D06CF0EE2033D37E00D4CD47 /* jueguitoUITests */,
+				D06CF0CD2033D37E00D4CD47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D06CF0CD2033D37E00D4CD47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06CF0CC2033D37E00D4CD47 /* jueguito.app */,
+				D06CF0E02033D37E00D4CD47 /* jueguitoTests.xctest */,
+				D06CF0EB2033D37E00D4CD47 /* jueguitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06CF0CE2033D37E00D4CD47 /* jueguito */ = {
+			isa = PBXGroup;
+			children = (
+				D06CF0CF2033D37E00D4CD47 /* AppDelegate.swift */,
+				D06CF0D12033D37E00D4CD47 /* ViewController.swift */,
+				D06CF0D32033D37E00D4CD47 /* Main.storyboard */,
+				D06CF0D62033D37E00D4CD47 /* Assets.xcassets */,
+				D06CF0D82033D37E00D4CD47 /* LaunchScreen.storyboard */,
+				D06CF0DB2033D37E00D4CD47 /* Info.plist */,
+			);
+			path = jueguito;
+			sourceTree = "<group>";
+		};
+		D06CF0E32033D37E00D4CD47 /* jueguitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D06CF0E42033D37E00D4CD47 /* jueguitoTests.swift */,
+				D06CF0E62033D37E00D4CD47 /* Info.plist */,
+			);
+			path = jueguitoTests;
+			sourceTree = "<group>";
+		};
+		D06CF0EE2033D37E00D4CD47 /* jueguitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D06CF0EF2033D37E00D4CD47 /* jueguitoUITests.swift */,
+				D06CF0F12033D37E00D4CD47 /* Info.plist */,
+			);
+			path = jueguitoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06CF0CB2033D37E00D4CD47 /* jueguito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06CF0F42033D37E00D4CD47 /* Build configuration list for PBXNativeTarget "jueguito" */;
+			buildPhases = (
+				D06CF0C82033D37E00D4CD47 /* Sources */,
+				D06CF0C92033D37E00D4CD47 /* Frameworks */,
+				D06CF0CA2033D37E00D4CD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jueguito;
+			productName = jueguito;
+			productReference = D06CF0CC2033D37E00D4CD47 /* jueguito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D06CF0DF2033D37E00D4CD47 /* jueguitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06CF0F72033D37E00D4CD47 /* Build configuration list for PBXNativeTarget "jueguitoTests" */;
+			buildPhases = (
+				D06CF0DC2033D37E00D4CD47 /* Sources */,
+				D06CF0DD2033D37E00D4CD47 /* Frameworks */,
+				D06CF0DE2033D37E00D4CD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06CF0E22033D37E00D4CD47 /* PBXTargetDependency */,
+			);
+			name = jueguitoTests;
+			productName = jueguitoTests;
+			productReference = D06CF0E02033D37E00D4CD47 /* jueguitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D06CF0EA2033D37E00D4CD47 /* jueguitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06CF0FA2033D37E00D4CD47 /* Build configuration list for PBXNativeTarget "jueguitoUITests" */;
+			buildPhases = (
+				D06CF0E72033D37E00D4CD47 /* Sources */,
+				D06CF0E82033D37E00D4CD47 /* Frameworks */,
+				D06CF0E92033D37E00D4CD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06CF0ED2033D37E00D4CD47 /* PBXTargetDependency */,
+			);
+			name = jueguitoUITests;
+			productName = jueguitoUITests;
+			productReference = D06CF0EB2033D37E00D4CD47 /* jueguitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06CF0C42033D37E00D4CD47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "MacBook  Air";
+				TargetAttributes = {
+					D06CF0CB2033D37E00D4CD47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D06CF0DF2033D37E00D4CD47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D06CF0CB2033D37E00D4CD47;
+					};
+					D06CF0EA2033D37E00D4CD47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D06CF0CB2033D37E00D4CD47;
+					};
+				};
+			};
+			buildConfigurationList = D06CF0C72033D37E00D4CD47 /* Build configuration list for PBXProject "jueguito" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06CF0C32033D37E00D4CD47;
+			productRefGroup = D06CF0CD2033D37E00D4CD47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06CF0CB2033D37E00D4CD47 /* jueguito */,
+				D06CF0DF2033D37E00D4CD47 /* jueguitoTests */,
+				D06CF0EA2033D37E00D4CD47 /* jueguitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06CF0CA2033D37E00D4CD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06CF0DA2033D37E00D4CD47 /* LaunchScreen.storyboard in Resources */,
+				D06CF0D72033D37E00D4CD47 /* Assets.xcassets in Resources */,
+				D06CF0D52033D37E00D4CD47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06CF0DE2033D37E00D4CD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06CF0E92033D37E00D4CD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06CF0C82033D37E00D4CD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06CF0D22033D37E00D4CD47 /* ViewController.swift in Sources */,
+				D06CF0D02033D37E00D4CD47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06CF0DC2033D37E00D4CD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06CF0E52033D37E00D4CD47 /* jueguitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06CF0E72033D37E00D4CD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06CF0F02033D37E00D4CD47 /* jueguitoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06CF0E22033D37E00D4CD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06CF0CB2033D37E00D4CD47 /* jueguito */;
+			targetProxy = D06CF0E12033D37E00D4CD47 /* PBXContainerItemProxy */;
+		};
+		D06CF0ED2033D37E00D4CD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06CF0CB2033D37E00D4CD47 /* jueguito */;
+			targetProxy = D06CF0EC2033D37E00D4CD47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D06CF0D32033D37E00D4CD47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06CF0D42033D37E00D4CD47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06CF0D82033D37E00D4CD47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06CF0D92033D37E00D4CD47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06CF0F22033D37E00D4CD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D06CF0F32033D37E00D4CD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06CF0F52033D37E00D4CD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBJ2Y47Z5B;
+				INFOPLIST_FILE = jueguito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tareas.jueguito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D06CF0F62033D37E00D4CD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBJ2Y47Z5B;
+				INFOPLIST_FILE = jueguito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tareas.jueguito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D06CF0F82033D37E00D4CD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBJ2Y47Z5B;
+				INFOPLIST_FILE = jueguitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tareas.jueguitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jueguito.app/jueguito";
+			};
+			name = Debug;
+		};
+		D06CF0F92033D37E00D4CD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBJ2Y47Z5B;
+				INFOPLIST_FILE = jueguitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tareas.jueguitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jueguito.app/jueguito";
+			};
+			name = Release;
+		};
+		D06CF0FB2033D37E00D4CD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBJ2Y47Z5B;
+				INFOPLIST_FILE = jueguitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tareas.jueguitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jueguito;
+			};
+			name = Debug;
+		};
+		D06CF0FC2033D37E00D4CD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBJ2Y47Z5B;
+				INFOPLIST_FILE = jueguitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tareas.jueguitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jueguito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06CF0C72033D37E00D4CD47 /* Build configuration list for PBXProject "jueguito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06CF0F22033D37E00D4CD47 /* Debug */,
+				D06CF0F32033D37E00D4CD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06CF0F42033D37E00D4CD47 /* Build configuration list for PBXNativeTarget "jueguito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06CF0F52033D37E00D4CD47 /* Debug */,
+				D06CF0F62033D37E00D4CD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06CF0F72033D37E00D4CD47 /* Build configuration list for PBXNativeTarget "jueguitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06CF0F82033D37E00D4CD47 /* Debug */,
+				D06CF0F92033D37E00D4CD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06CF0FA2033D37E00D4CD47 /* Build configuration list for PBXNativeTarget "jueguitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06CF0FB2033D37E00D4CD47 /* Debug */,
+				D06CF0FC2033D37E00D4CD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06CF0C42033D37E00D4CD47 /* Project object */;
+}
